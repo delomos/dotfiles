@@ -19,11 +19,3 @@ alias g="git status"
 alias br="git branch"
 alias glog="git log"
 
-
-
-# Ubuntu​
-alias get = 'sudo apt-get install' # installed ...
-alias up = 'sudo apt-get update && sudo apt-get upgrade'
-
-
-
