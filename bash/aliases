@@ -18,4 +18,4 @@ alias zipr="zip -r"
 alias g="git status"
 alias br="git branch"
 alias glog="git log"
-
+alias gtag="git tag"

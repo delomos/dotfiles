@@ -1,75 +1,4 @@
-## From https://github.com/tohn/bash-dotfiles/blob/master/.bash_functions
 
-function axel {
-	command axel -n 10 -av "$@"
-}
-function l {
-  ls -lh "$@"
-}
-function ll {
-  ls -lah "$@"
-}
-function la {
-  ls -A "$@"
-}
-function lt {
-  ls -lhtr "$@"
-}
-
-function dh {
-  df -h "$@"
-}
-
-function mkdir {
-  command mkdir -p "$@"
-}
-
-function grep {
-  command grep -irs "$@"
-}
-
-function cal {
-  command cal -m "$@"
-}
-
-function xpdf {
-  command xpdf -z page "$@" &
-}
-
-function dusch {
-        du -sch *
-}
-
-function du1 {
-        if [ "$*" = "" ] ; then
-                du -h --max-depth=1 --exclude=".?*" "`pwd`"
-        else
-                du -h --max-depth=1 --exclude=".?*" "$@"
-        fi
-}
-function du2 {
-        if [ "$*" = "" ] ; then
-                du -h --max-depth=2 --exclude=".?*" "`pwd`"
-        else
-                du -h --max-depth=2 --exclude=".?*" "$@"
-        fi
-}
-
-function psgrep {
-  ps -eaf | grep --color=auto -i "$1"
-}
-
-function returncode {
-        returncode=$?
-        if [ $returncode -ne 0 ] ; then
-                echo "$returncode"
-        fi
-}
-
-function mkcd () {
-  mkdir -p "$1"
-  cd "$1"
-}
 
 ###   Handy Extract Program
 extract () {
@@ -93,15 +22,61 @@ extract () {
     fi
 }
 
-bak () {
+
+# Utilities
+
+function l {
+  ls -lh "$@"
+}
+function ll {
+  ls -lah "$@"
+}
+function la {
+  ls -A "$@"
+}
+function lt {
+  ls -lhtr "$@"
+}
+
+function mkdir {
+  command mkdir -p "$@"
+}
+
+function grep {
+  command grep -irs "$@"
+}
+
+function cal {
+  command cal -m "$@"
+}
+
+function mkcd () {
+  mkdir -p "$1"
+  cd "$1"
+}
+
+#needs root access
+function drop() {
+	rm -rf "$@"
+}
+
+function dl(){
+	wget "$@"
+}
+
+bkup () {
 	filename=$1
 	filetime=$(date +%Y%m%d_%H%M%S)
-	cp ${filename} ${filename}_${filetime}
+	cp -r ${filename} ${filename}_${filetime}
 }
 
-#functions
-function take {
-	mkdir $1
-	cd $2  
+
+# Git
+function gc(){
+	git commit -am "\"$@\""
 }
 
+function ga(){
+ 	git add . 
+	git commit -m "$@"
+}
