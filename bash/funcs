@@ -1,4 +1,5 @@
-
+# author: dele.o
+# http://delewrit.es
 
 ###   Handy Extract Program
 extract () {
@@ -79,4 +80,10 @@ function gc(){
 function ga(){
  	git add . 
 	git commit -m "$@"
+}
+function gra(){
+	git remote add "$@" 
+}
+function clone(){
+	git clone "$@"
 }

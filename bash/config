@@ -1,3 +1,6 @@
+# author: dele.o
+# http://delewrit.es
+
 # color codes
 txtblk='\e[0;30m' # Black - Regular
 txtred='\e[0;31m' # Red
@@ -32,4 +35,7 @@ bakpur='\e[45m'   # Purple
 bakcyn='\e[46m'   # Cyan
 bakwht='\e[47m'   # White
 
+# customize the terminal
+# !Important, you need to have 'vcprompt' installed
+# see, https://github.com/djl/vcprompt
 export PS1="\n\u[\[$bldylw\]:\w\e[m \[$undwht\]\$(vcprompt)\e[m ]: "
