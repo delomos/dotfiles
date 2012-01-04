@@ -1,0 +1,5 @@
+Host server
+	HostName webserver.pyxismobile.com
+	User pyxis
+	Port 22
+	 

@@ -1,0 +1,29 @@
+#env global
+alias ..="cd .."
+
+
+#aliases
+alias ws="/var/www/vhosts/verivo.com/verivo.com/httpdocs/"
+alias desk="cd ~/Desktop"
+alias dotf="cd ~/bin/dotfiles/"
+alias reload="source ~/.bashrc"
+alias er="mate -w ~/bin/dotfiles/bash/ && reload"
+
+
+#Utilities
+alias c="clear"
+alias zipr="zip -r"
+
+#Git
+alias g="git status"
+alias br="git branch"
+alias glog="git log"
+
+
+
+# Ubuntu​
+alias get = 'sudo apt-get install' # installed ...
+alias up = 'sudo apt-get update && sudo apt-get upgrade'
+
+
+
