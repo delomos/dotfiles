@@ -73,7 +73,7 @@ bkup () {
 
 
 # Git
-function gc(){
+function commit(){
 	git commit -am "\"$@\""
 }
 

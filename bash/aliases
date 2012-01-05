@@ -16,6 +16,7 @@ alias er="mate -w ~/bin/dotfiles/bash/ && reload"
 #Utilities
 alias c="clear"
 alias zipr="zip -r"
+alias m="mate"
 
 #Git
 alias g="git status"
