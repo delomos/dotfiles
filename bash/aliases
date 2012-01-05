@@ -17,6 +17,11 @@ alias er="mate -w ~/bin/dotfiles/bash/ && reload"
 alias c="clear"
 alias zipr="zip -r"
 alias m="mate"
+alias h="history"
+
+#mac specific
+alias hide="chflags hidden ~/Desktop/*"
+alias unhide="chflags nohidden ~/Desktop/*"
 
 #Git
 alias g="git status"
