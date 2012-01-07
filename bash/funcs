@@ -89,3 +89,6 @@ function gra(){
 function clone(){
 	git clone "$@"
 }
+function push(){
+	git push "$@"
+}
