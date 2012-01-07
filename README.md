@@ -21,9 +21,9 @@ This assumes the repo was cloned to the ~/bin director
 `source ~/bin/dotfiles/bashrc`
 
 === [ ~/.bash_profile file ] ===
-`if [ -f ~/.bashrc];
-then
-	source ~/.bashrc
+`if [ -f ~/.bashrc]
+	then
+		source ~/.bashrc
 fi`
 
 then, when you're ready to go:
