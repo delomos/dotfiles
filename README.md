@@ -11,7 +11,7 @@ I usually keep my structure like so:
 							      |
 		                     |-------->[ bash/ ]
 		
-That said: `git clone git@github.com:delomos/dotfiles.git`
+That said: `git clone https://delomos@github.com/delomos/dotfiles.git`
 
 
 #### A Practical Example
