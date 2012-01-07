@@ -13,6 +13,7 @@ alias reload="source ~/.bashrc"
 alias er="mate -w ~/bin/dotfiles/bash/ && reload"
 
 
+
 #Utilities
 alias c="clear"
 alias zipr="zip -r"

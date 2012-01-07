@@ -38,4 +38,4 @@ bakwht='\e[47m'   # White
 # customize the terminal
 # !Important, you need to have 'vcprompt' installed
 # see, https://github.com/djl/vcprompt
-export PS1='[\u@\h \e[0;33m\w\e[m \e[1;37m$(__git_ps1 "(%s)"\e[m) ]\$ '
+export PS1='[\u@\h \e[0;33m\w\e[m \e[1;32m$(__git_ps1 "(%s)"\e[m) ] » '
