@@ -32,9 +32,6 @@
 #       ^ - stashed changes
 #       % - untracked files
 #
-# Installation:
-#   Add the following line to your .bashrc:
-#       source ~/.bash_git_ps1.sh
 #-----------------------------------------------------------------------------------------------
 
 
