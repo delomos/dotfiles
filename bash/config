@@ -44,4 +44,4 @@ bakwht='\e[47m'   # White
 reset='\e[m' #reset
 
 # customize the terminal
-PS1="\n\[\033[1;36m\]\u@\h\[\033[33;1m\]\[\033[32;1m\] | \t\[\033[33;1m\] | \[\033[1;36m\]\w \[\033[33;1m\] on \[\033[1;36m\]$(__git_ps1 " (%s)")\[\033[33;1m\] branch\[\033[34;1m\] \n\[\033[31m\]What is thy bidding, my master › \n\n\[\033[37;1m\]"
+PS1="\n\[\033[1;36m\]\u@\h\[\033[33;1m\]\[\033[32;1m\] | \t\[\033[33;1m\] | \[\033[1;36m\]\w \[\033[33;1m\] on \[\033[1;36m\]$(__git_ps1 " (%s)")\[\033[33;1m\] branch\[\033[34;1m\] \n\[\033[31m\]What is thy bidding, my master?\n\n\[\033[37;1m\]"
