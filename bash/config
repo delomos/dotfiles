@@ -368,7 +368,7 @@ __git_prompt() {
         marker="$RED"
     fi
     marker="${marker}\$${RESET}"
-    PS1="${PS1} → \n\n${marker} "
+    PS1="${PS1} > \n\n${marker} "
 }
 PROMPT_COMMAND=__git_prompt
 # customize the terminal
