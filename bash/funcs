@@ -94,5 +94,5 @@ function push(){
 }
 
 function chkout(){
-	git checkout "$@"
+	git checkout 
 }
