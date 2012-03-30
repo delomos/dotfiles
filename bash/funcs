@@ -76,7 +76,7 @@ bkup () {
 
 # Git
 function commit(){
-	git commit -am "\"$@\""
+	git commit -m "\"$@\""
 }
 
 function ga(){
@@ -91,4 +91,8 @@ function clone(){
 }
 function push(){
 	git push "$@"
+}
+
+function chkout(){
+	git checkout "$@"
 }
