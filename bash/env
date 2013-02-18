@@ -1,7 +1,7 @@
 # author: dele.o
 # http://delewrit.es
 
-export EDITOR="mate -w"
+export EDITOR="subl -w"
 # uncomment this to add this to your path env
 # export PATH=$PATH:~/dotfiles
 export PATH=$PATH:~/bin
